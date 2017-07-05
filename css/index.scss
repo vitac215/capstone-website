@@ -1,1 +1,54 @@
 @import 'vendor/base';
+
+/* color palette */
+$main-color: #4a5374;
+$shade-color: #8a98b4;
+
+.shading {
+    background: $shade-color;
+}
+
+/* navbar */
+.mainnav {
+    display: flex;
+    padding: 0 5rem;
+	// position: fixed;
+	z-index: 10;
+	width: 100%;
+    background-color: $main-color;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    margin: 1em;
+    color: #fff;
+}
+.mainnav-links {
+	margin: 1em;
+    margin-left: auto;
+}
+.mainnav-button, .nav-logo {
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 1em 2.5em;
+	font-size: 1em;
+}
+.mainnav-link,
+.mainnav-link:focus,
+.mainnav-link:visited {
+	color: #FFF;
+}
+.mainnav-link:hover {
+	color: lighten($main-color, 50%);
+}
+
+
+/* footer */
+.footer {
+    padding: 2rem 5rem;
+    color: #fff;
+
+    p:last-child {
+        margin: 0;
+    }
+}
