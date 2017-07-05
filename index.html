@@ -18,13 +18,19 @@
 </head>
 
 <body class="container-fluid">
-    <nav id="navbar">
-    </nav>
+    <div id="navbar">
+    </div>
 
-    <footer id="footer">
-    </footer>
+    <div id="footer">
+    </div>
 
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script>
+    $(function(){
+        $("#navbar").load("components/navbar.html");
+        $("#footer").load("components/footer.html");
+    });
+    </script>
 </body>
 
 </html>
