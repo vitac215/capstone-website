@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="407px" height="1466px" viewBox="0 0 407 1466" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>process</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="process">
+            <g id="footer" transform="translate(0.000000, 1414.000000)">
+                <rect id="footer-bg" fill="#495273" x="0" y="0" width="407" height="52"></rect>
+                <text id="©-2017-Team-Themis" font-family="Avenir-Book, Avenir" font-size="8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="42" y="21">© 2017 Team Themis</tspan>
+                    <tspan x="42" y="32"></tspan>
+                </text>
+                <text id="Carnegie-Mellon-Univ" font-family="Avenir-Book, Avenir" font-size="8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="41" y="36">Carnegie Mellon University | HCII</tspan>
+                </text>
+            </g>
+            <g id="prototypes" transform="translate(0.000000, 947.000000)">
+                <rect id="Rectangle-2" fill="#FDFDFD" x="0" y="0" width="407" height="164"></rect>
+                <text id="Prototypes" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#7C7C7C">
+                    <tspan x="48" y="48">Prototypes</tspan>
+                </text>
+            </g>
+            <g id="design" transform="translate(0.000000, 652.000000)">
+                <rect id="research-bg" fill="#8997B3" x="0" y="0" width="407" height="295.101562"></rect>
+                <text id="Design" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#FFFFFF">
+                    <tspan x="39" y="48">Design</tspan>
+                </text>
+                <g id="research-item" transform="translate(41.000000, 70.000000)">
+                    <circle id="Oval-Copy" fill="#D8D8D8" cx="27" cy="27" r="27"></circle>
+                    <text id="method-name" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#FFFFFF">
+                        <tspan x="86" y="13">Storyboards</tspan>
+                    </text>
+                    <text id="description" font-family="Avenir-Book, Avenir" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="86" y="24">Lorem ipsum dolor sit amet, nobis sensibus est in, ea eros </tspan>
+                        <tspan x="86" y="31">quidam vivendum per. Eam aeque rationibus efficiendi id. Eu his </tspan>
+                        <tspan x="86" y="38">pertinacia uLorem ipsum dolor sit amet, nobis sensibus est in, ea </tspan>
+                        <tspan x="86" y="45">eros</tspan>
+                    </text>
+                </g>
+                <g id="research-item-copy" transform="translate(41.000000, 139.000000)">
+                    <circle id="Oval-Copy" fill="#D8D8D8" cx="27" cy="27" r="27"></circle>
+                    <text id="method-name" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#FFFFFF">
+                        <tspan x="86" y="13">Design method</tspan>
+                    </text>
+                    <text id="description" font-family="Avenir-Book, Avenir" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="86" y="24">Lorem ipsum dolor sit amet, nobis sensibus est in, ea eros </tspan>
+                        <tspan x="86" y="31">quidam vivendum per. Eam aeque rationibus efficiendi id. Eu his </tspan>
+                        <tspan x="86" y="38">pertinacia uLorem ipsum dolor sit amet, nobis sensibus est in, ea </tspan>
+                        <tspan x="86" y="45">eros</tspan>
+                    </text>
+                </g>
+                <g id="research-item-copy-2" transform="translate(41.000000, 208.000000)">
+                    <circle id="Oval-Copy" fill="#D8D8D8" cx="27" cy="27" r="27"></circle>
+                    <text id="method-name" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#FFFFFF">
+                        <tspan x="86" y="13">Design method</tspan>
+                    </text>
+                    <text id="description" font-family="Avenir-Book, Avenir" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="86" y="24">Lorem ipsum dolor sit amet, nobis sensibus est in, ea eros </tspan>
+                        <tspan x="86" y="31">quidam vivendum per. Eam aeque rationibus efficiendi id. Eu his </tspan>
+                        <tspan x="86" y="38">pertinacia uLorem ipsum dolor sit amet, nobis sensibus est in, ea </tspan>
+                        <tspan x="86" y="45">eros</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="insights" transform="translate(0.000000, 488.000000)">
+                <rect id="Rectangle-2" fill="#FDFDFD" x="0" y="0" width="407" height="164"></rect>
+                <text id="Insights" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#7C7C7C">
+                    <tspan x="48" y="48">Insights</tspan>
+                </text>
+            </g>
+            <g id="research" transform="translate(0.000000, 193.000000)">
+                <rect id="research-bg" fill="#8997B3" x="0" y="0" width="407" height="295.101562"></rect>
+                <text id="Research" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#FFFFFF">
+                    <tspan x="39" y="48">Research</tspan>
+                </text>
+                <g id="research-item" transform="translate(41.000000, 70.000000)">
+                    <circle id="Oval-Copy" fill="#D8D8D8" cx="27" cy="27" r="27"></circle>
+                    <text id="method-name" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#FFFFFF">
+                        <tspan x="86" y="13">Interview</tspan>
+                    </text>
+                    <text id="description" font-family="Avenir-Book, Avenir" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="86" y="24">Lorem ipsum dolor sit amet, nobis sensibus est in, ea eros </tspan>
+                        <tspan x="86" y="31">quidam vivendum per. Eam aeque rationibus efficiendi id. Eu his </tspan>
+                        <tspan x="86" y="38">pertinacia uLorem ipsum dolor sit amet, nobis sensibus est in, ea </tspan>
+                        <tspan x="86" y="45">eros</tspan>
+                    </text>
+                </g>
+                <g id="research-item-copy" transform="translate(41.000000, 139.000000)">
+                    <circle id="Oval-Copy" fill="#D8D8D8" cx="27" cy="27" r="27"></circle>
+                    <text id="method-name" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#FFFFFF">
+                        <tspan x="86" y="13">Research method</tspan>
+                    </text>
+                    <text id="description" font-family="Avenir-Book, Avenir" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="86" y="24">Lorem ipsum dolor sit amet, nobis sensibus est in, ea eros </tspan>
+                        <tspan x="86" y="31">quidam vivendum per. Eam aeque rationibus efficiendi id. Eu his </tspan>
+                        <tspan x="86" y="38">pertinacia uLorem ipsum dolor sit amet, nobis sensibus est in, ea </tspan>
+                        <tspan x="86" y="45">eros</tspan>
+                    </text>
+                </g>
+                <g id="research-item-copy-2" transform="translate(41.000000, 208.000000)">
+                    <circle id="Oval-Copy" fill="#D8D8D8" cx="27" cy="27" r="27"></circle>
+                    <text id="method-name" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#FFFFFF">
+                        <tspan x="86" y="13">Research method</tspan>
+                    </text>
+                    <text id="description" font-family="Avenir-Book, Avenir" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="86" y="24">Lorem ipsum dolor sit amet, nobis sensibus est in, ea eros </tspan>
+                        <tspan x="86" y="31">quidam vivendum per. Eam aeque rationibus efficiendi id. Eu his </tspan>
+                        <tspan x="86" y="38">pertinacia uLorem ipsum dolor sit amet, nobis sensibus est in, ea </tspan>
+                        <tspan x="86" y="45">eros</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="objective" transform="translate(0.000000, 55.000000)">
+                <rect id="objective-bg" fill="#FDFDFD" x="0" y="0" width="407" height="137.058594"></rect>
+                <text id="Objective" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#787878">
+                    <tspan x="39" y="48">Objective</tspan>
+                </text>
+                <text id="description" font-family="Avenir-Book, Avenir" font-size="10" font-weight="normal" fill="#787878">
+                    <tspan x="41" y="73">Lorem ipsum dolor sit amet, nobis sensibus est in, ea eros quidam </tspan>
+                    <tspan x="41" y="87">vivendum per. Eam aeque rationibus efficiendi id. Eu his pertinacia </tspan>
+                    <tspan x="41" y="101">uLorem ipsum dolor sit amet, nobis sensibus est in, ea eros</tspan>
+                </text>
+            </g>
+            <g id="nav">
+                <rect id="Rectangle" fill="#495273" x="0" y="0" width="407" height="55"></rect>
+                <text id="PHIDELITY" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" fill="#FFFFFF">
+                    <tspan x="40" y="32">PHIDELITY</tspan>
+                </text>
+                <text id="HOME" font-family="Avenir-Heavy, Avenir" font-size="8" font-weight="600" fill="#FFFFFF">
+                    <tspan x="200" y="31">HOME</tspan>
+                </text>
+                <text id="PRODUCT" font-family="Avenir-Heavy, Avenir" font-size="8" font-weight="600" fill="#FFFFFF">
+                    <tspan x="239" y="31">PRODUCT</tspan>
+                </text>
+                <text id="PROCESS" font-family="Avenir-Heavy, Avenir" font-size="8" font-weight="600" fill="#FFFFFF">
+                    <tspan x="289" y="31">PROCESS</tspan>
+                </text>
+                <text id="ABOUT" font-family="Avenir-Heavy, Avenir" font-size="8" font-weight="600" fill="#FFFFFF">
+                    <tspan x="339.552734" y="31">ABOUT</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

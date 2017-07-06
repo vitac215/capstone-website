@@ -1,0 +1,111 @@
+/* ==========================================================================
+  Variables
+  ========================================================================== */
+$media-phone: 479px;
+$media-tablet: 800px;
+$media-desktop: 1200px;
+
+$main-color: #4a5374;
+$shade-color: #8a98b4;
+$bright-color: #c6688a;
+
+$main-font: 'Open Sans', sans-serif;
+$sub-font: 'Open Sans', sans-serif;
+
+/* ==========================================================================
+   Components
+   ========================================================================== */
+.shading {
+    background: $shade-color;
+    color: #fff;
+}
+.btn {
+    background-color: $bright-color;
+    transition: 0.5s;
+
+    &:hover {
+        color: #fff;
+        background-color: darken($bright-color, 10%);
+    }
+}
+
+/* ==========================================================================
+   Section
+   ========================================================================== */
+.section {
+    padding: 5rem 10%; // 5rem 8rem
+
+    p {
+        font-size: 1.3rem;
+        @media screen and (max-width: $media-tablet) {
+            font-size: 1rem;
+        }
+    }
+
+    .btn {
+        display: block;
+        margin: auto;
+        margin-top: 2rem;
+        width: 10rem;
+    }
+}
+.section :first-child {
+    margin-top: 0;
+}
+.section :last-child {
+    margin-bottom: 0;
+}
+
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+.mainnav {
+    display: flex;
+    padding: 0 5rem;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+    background-color: $main-color;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    margin: 1em;
+    color: #fff;
+}
+.navbar-toggler {
+    margin: 0.7em;
+}
+.mainnav-links {
+	margin: 1em;
+    margin-left: auto;
+}
+.mainnav-button, .nav-logo {
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 1em 2.5em;
+	font-size: 1em;
+}
+.mainnav-link,
+.mainnav-link:focus,
+.mainnav-link:visited {
+	color: #FFF;
+}
+.mainnav-link:hover {
+	color: lighten($main-color, 50%);
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.footer {
+    padding: 2rem 10%;
+    color: #fff;
+    background-color: $main-color;
+
+    p:last-child {
+        margin: 0;
+    }
+}

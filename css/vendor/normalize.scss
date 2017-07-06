@@ -16,6 +16,7 @@ html {
 }
 body {
   font-family: 'Open Sans', sans-serif !important;
+  color: #787878;
 }
 
 /* Sections
@@ -137,7 +138,8 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
+  font-weight: bold;
+  font-size: 3em;
   margin: 0.67em 0;
 }
 
@@ -602,6 +604,17 @@ body a, body a:hover, body a:active, body a:focus, body a:visited{
   cursor: pointer;
 }
 
+.btn {
+    color: #fff;
+    border-radius: 40px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    &:active, &:focus {
+        color: #fff;
+    }
+}
+
 /* ==========================================================================
    Other media enhancement
    ========================================================================== */
@@ -683,4 +696,3 @@ body a, body a:hover, body a:active, body a:focus, body a:visited{
         page-break-after: avoid;
     }
 }
-
