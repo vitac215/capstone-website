@@ -1,0 +1,66 @@
+@import 'vendor/normalize';
+@import 'base';
+
+/* ==========================================================================
+   Team
+   ========================================================================== */
+.team {
+    img {
+        width: 200px;
+        height: 200px;
+        @media screen and (max-width: $media-tablet) {
+            width: 150px;
+            height: 150px;
+        }
+        @media screen and (max-width: $media-phone) {
+            margin: auto;
+        }
+    }
+
+    .team-container {
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: $media-tablet) {
+            display: block;
+        }
+
+        .team-half {
+
+            .team-member {
+                display: flex;
+                flex-direction: row;
+                margin-top: 50px;
+                @media screen and (max-width: $media-phone) {
+                    display: block;
+                }
+
+                .description {
+                    margin: 3% 0 0 10%;
+                    @media screen and (max-width: $media-phone) {
+                        margin: 3% 0;
+                        text-align: center;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+
+                    .name {
+                        text-transform: uppercase;
+                    }
+
+                    .bio {
+                        width: 80%;
+                        @media screen and (max-width: $media-phone) {
+                            width: 100%;
+                            text-align: left;
+                        }
+                        margin-top: 10px;
+                        font-size: 0.8rem;
+                        font-weight: lighter;
+                    }
+                }
+            }
+        }
+    }
+}
