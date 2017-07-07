@@ -1,0 +1,48 @@
+@import 'vendor/normalize';
+@import 'base';
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+.hero {
+    position: relative;
+    min-height: 500px;
+    background-position: center bottom;
+
+
+    .content {
+        @media screen and (max-width: $media-tablet) {
+            text-align: center;
+        }
+    }
+
+    .img {
+        background-image: url(../img/hero.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto 100%;
+
+        height: 500px;
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+        @media screen and (max-width: $media-tablet) {
+            background-image: url(../img/hero-small.png);
+            height: 214px;
+            left: 0;
+        }
+    }
+}
+
+.half-parent {
+    .img {
+        img {
+            width: 300px;
+        }
+    }
+}

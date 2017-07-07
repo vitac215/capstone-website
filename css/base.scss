@@ -30,8 +30,55 @@ $sub-font: 'Open Sans', sans-serif;
 }
 .img-responsive {
     display: block;
+    width: 100%;
     // max-width: 100%;
     // height: auto;
+}
+
+.half-parent {
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width: $media-phone) {
+        display: block;
+    }
+
+    .half-item {
+        &:nth-of-type(1) {
+            padding-right: 10%;
+            @media screen and (max-width: $media-phone) {
+                padding: 0;
+            }
+        }
+    }
+
+    .img {
+        align-self: center;
+    }
+}
+
+.multi-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-top: 2rem;
+
+    @media screen and (max-width: $media-tablet) {
+        display: block;
+    }
+
+    .multi-item {
+        text-align: center;
+
+        @media screen and (max-width: $media-tablet) {
+            margin-bottom: 2rem;
+        }
+
+        img {
+            width: 50%;
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 /* ==========================================================================

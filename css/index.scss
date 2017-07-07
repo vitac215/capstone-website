@@ -77,26 +77,3 @@
         }
     }
 }
-
-
-/* ==========================================================================
-   Solution
-   ========================================================================== */
-.solution {
-    .solution-feature-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 10%;
-        margin-top: 2rem;
-
-        .soltuion-feature {
-            text-align: center;
-
-            img {
-                width: 50%;
-                margin-bottom: 1rem;
-            }
-        }
-    }
-}
