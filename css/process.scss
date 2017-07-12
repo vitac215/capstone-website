@@ -2,5 +2,27 @@
 @import 'base';
 
 /* ==========================================================================
-
+   Research
    ========================================================================== */
+.time-line {
+    .time-line-item {
+        margin: 0 40% 3rem 0;
+        @media screen and (max-width: $media-tablet) {
+            margin-right: 0;
+        }
+    }
+
+    img {
+        min-width: 150px;
+        max-width: 200px;
+        @media screen and (max-width: $media-phone) {
+            margin: 1rem auto;
+        }
+    }
+}
+
+.prototype {
+    .prototype-item {
+        margin-top: 5rem;
+    }
+}
