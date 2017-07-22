@@ -77,12 +77,17 @@
 
 .solution {
     .multi-parent .multi-item {
-        img {
-            width: 80px;
-        }
         width: 30%;
         @media screen and (max-width: $media-tablet) {
             width: 100%;
+        }
+
+        img {
+            width: 80px;
+        }
+
+        & p {
+            font-family: ApercuLight;
         }
     }
 }
@@ -93,7 +98,12 @@
     }
 
     .half-parent {
-        .img {
+        .half-item {
+            p {
+                margin-top: 1.5rem;
+                font-family: ApercuLight;
+            }
+
             img {
                 min-width: 300px;
             }
