@@ -5,27 +5,71 @@ $media-phone: 479px;
 $media-tablet: 800px;
 $media-desktop: 1200px;
 
-$main-color: #4a5374;
-$shade-color: #8a98b4;
-$bright-color: #c6688a;
+$main-color: #32C0CE;
+$shade-color: #F8F8F8;
+$black-color: #4A4A4A;
 
-$main-font: 'Open Sans', sans-serif;
-$sub-font: 'Open Sans', sans-serif;
+/* ==========================================================================
+   Font
+   ========================================================================== */
+@font-face {
+   font-family: ApercuBold;
+   src: url(../font/Apercu/Apercu-Bold.otf);
+}
+
+@font-face {
+   font-family: ApercuMedium;
+   src: url(../font/Apercu/Apercu-Medium.otf);
+}
+
+@font-face {
+    font-family: ApercuRegular;
+    src: url(../font/Apercu/Apercu-Regular.otf);
+}
+
+
+@font-face {
+   font-family: ApercuLight;
+   src: url(../font/Apercu/Apercu-Light.otf);
+}
+
+
+h1 {
+    font-family: ApercuBold;
+}
+
+/* ==========================================================================
+   Logo
+   ========================================================================== */
+.logo {
+    width: 30px;
+}
+
 
 /* ==========================================================================
    Components
    ========================================================================== */
+* {
+    color: $black-color;
+    font-family: ApercuRegular;
+}
+
 .shading {
     background: $shade-color;
-    color: #fff;
 }
 .btn {
-    background-color: $bright-color;
+    color: $black-color;
+    text-transform: none;
+    font-size: 1.1rem;
+    background-color: #fff;
+    border: solid 2px $shade-color;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
     transition: 0.5s;
 
     &:hover {
-        color: #fff;
-        background-color: darken($bright-color, 10%);
+        color: $black-color;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 .img-responsive {
@@ -60,7 +104,7 @@ $sub-font: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 10%;
+    // padding: 0 10%;
     margin-top: 2rem;
 
     @media screen and (max-width: $media-tablet) {
@@ -75,7 +119,7 @@ $sub-font: 'Open Sans', sans-serif;
         }
 
         img {
-            width: 50%;
+            // width: 50%;
             margin-bottom: 1rem;
         }
     }
@@ -86,6 +130,10 @@ $sub-font: 'Open Sans', sans-serif;
    ========================================================================== */
 .section {
     padding: 5rem 10%; // 5rem 8rem
+
+    & h1 {
+        margin-bottom: 4rem;
+    }
 
     p {
         font-size: 1.3rem;
@@ -99,6 +147,14 @@ $sub-font: 'Open Sans', sans-serif;
         margin: auto;
         margin-top: 2rem;
         width: 10rem;
+        position: relative;
+        padding-left: 3.5rem;
+
+        .material-icons {
+            position: absolute;
+            left: 1.5rem;
+            bottom: 0.7rem;
+        }
     }
 
     // first section - adds offset for navbar
@@ -148,7 +204,6 @@ $sub-font: 'Open Sans', sans-serif;
 }
 .mainnav-button, .nav-logo {
 	display: inline-block;
-	text-transform: uppercase;
 	padding: 1em 2.5em;
 	font-size: 1em;
 }
@@ -168,9 +223,19 @@ $sub-font: 'Open Sans', sans-serif;
 .footer {
     padding: 2rem 10%;
     color: #fff;
-    background-color: $main-color;
+    text-align: center;
+    background-color: #2A2A2A;
 
-    p:last-child {
-        margin: 0;
+    & .logo {
+        margin-bottom: 0.5rem;
+    }
+
+    & p {
+        color: #fff;
+    }
+
+    & p:last-child {
+        margin: 1rem 0 0 0;
+        color: #8F8F8F;
     }
 }
