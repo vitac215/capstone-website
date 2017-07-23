@@ -103,7 +103,7 @@ h1 {
             }
         }
 
-        & p {
+        & h1, p {
             text-align: left;
         }
     }
@@ -137,6 +137,21 @@ h1 {
         }
     }
 }
+
+
+.half-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .half-bg-content {
+        text-align: left;
+        width: 50%;
+        @media screen and (max-width: $media-phone) {
+            width: 100%;
+        }
+    }
+}
+
 
 .media-desktop-only {
     @media screen and (max-width: $media-phone) {

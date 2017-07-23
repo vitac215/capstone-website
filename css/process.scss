@@ -35,3 +35,147 @@
         }
     }
 }
+
+
+/* ==========================================================================
+   Research
+   ========================================================================== */
+.half-bg.research {
+    background-image: url("../img/process/research.png");
+    @media screen and (max-width: $media-phone) {
+        background-image: url("../img/process/research_dark.png");
+        background-position: right;
+    }
+
+    .half-bg-content {
+        padding: 0 10% 0 0;
+        h1, p {
+            font-family: ApercuRegular;
+        }
+        @media screen and (max-width: $media-phone) {
+            padding: 0;
+            h1, p {
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+/* ==========================================================================
+   Testimonial
+   ========================================================================== */
+.testimonial {
+    padding: 5rem 20%;
+
+    & .quote p {
+        font-family: ApercuRegular;
+    }
+
+    & img {
+        max-width: 100px;
+    }
+
+    .half-parent {
+        justify-content: center;
+        @media screen and (max-width: $media-phone) {
+            display: flex;
+        }
+
+        .half-item {
+            align-self: center;
+            p {
+                margin: 0;
+                &:nth-of-type(1) {
+                    font-family: ApercuBold;
+                }
+            }
+        }
+        .half-item:nth-of-type(1) {
+            padding-right: 3%;
+        }
+    }
+}
+
+
+/* ==========================================================================
+   Visioning
+   ========================================================================== */
+.half-bg.visioning {
+    display: flex;
+    justify-content: flex-end;
+
+    background-image: url("../img/process/visioning.png");
+    @media screen and (max-width: $media-phone) {
+        background-image: url("../img/process/visioning_dark.png");
+        background-position: left;
+    }
+
+    .half-bg-content {
+        padding: 0 0 0 10%;
+        h1, p {
+            font-family: ApercuRegular;
+        }
+        @media screen and (max-width: $media-phone) {
+            padding: 0;
+            h1, p {
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+/* ==========================================================================
+   Storyboard
+   ========================================================================== */
+.storyboard {
+    height: 500px;
+    background-image: url("../img/process/storyboard.png");
+    background-size: cover;
+    @media screen and (max-width: $media-phone) {
+        background-position: center;
+    }
+
+    .content {
+        background-color: #fff;
+        padding: 35px;
+        width: 450px;
+        @media screen and (max-width: $media-phone) {
+            width: 300px;
+        }
+
+        & h1 {
+            margin: 0 0 1.5rem 0;
+        }
+        & p {
+            text-align: left;
+            margin: 0;
+        }
+    }
+}
+
+
+/* ==========================================================================
+   Numbers
+   ========================================================================== */
+.numbers {
+    .multi-parent {
+        margin-bottom: 0;
+
+        .multi-item {
+            width: 15%;
+            @media screen and (max-width: $media-phone) {
+                width: 100%;
+            }
+
+            h1 {
+                margin: 0 0 0.5rem 0;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
