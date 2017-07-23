@@ -43,6 +43,10 @@ h1 {
     font-family: ApercuBold;
 }
 
+.font-heavy {
+    font-family: ApercuBold;
+}
+
 /* ==========================================================================
    Logo
    ========================================================================== */
@@ -134,6 +138,21 @@ h1 {
     }
 }
 
+.media-desktop-only {
+    @media screen and (max-width: $media-phone) {
+        display: none;
+    }
+}
+
+.media-phone-only {
+    @media screen and (min-width: $media-phone) {
+        display: none;
+    }
+    @media screen and (max-width: $media-phone) {
+        display: inherit;
+    }
+}
+
 /* ==========================================================================
    Section
    ========================================================================== */
@@ -143,6 +162,9 @@ h1 {
 
     & h1 {
         margin-bottom: 4rem;
+        @media screen and (max-width: $media-phone) {
+            font-size: 2rem;
+        }
     }
 
     & p {
@@ -245,6 +267,7 @@ h1 {
         width: 60%;
 
         h1 {
+            font-size: 3rem;
             margin-bottom: 3rem;
         }
 
@@ -253,7 +276,7 @@ h1 {
         }
 
         p {
-            font-family: ApercuMedium;
+            font-family: ApercuRegular;
             width: 80%;
             @media screen and (max-width: $media-tablet) {
                 width: 100%;

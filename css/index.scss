@@ -51,7 +51,8 @@
 
 .problem {
     p {
-        padding: 0 20%;
+        font-family: ApercuRegular;
+        padding: 0 15%;
         @media screen and (max-width: $media-tablet) {
             padding: 0;
         }
