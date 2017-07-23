@@ -2,27 +2,36 @@
 @import 'base';
 
 /* ==========================================================================
-   Research
+   Hero
    ========================================================================== */
-.time-line {
-    .time-line-item {
-        margin: 0 40% 3rem 0;
-        @media screen and (max-width: $media-tablet) {
-            margin-right: 0;
-        }
+.hero {
+    background-image: url("../img/process/bg.png");
+    min-height: 500px;
+    @media screen and (max-width: $media-phone) {
+        min-height: 300px;
     }
-
-    img {
-        min-width: 150px;
-        max-width: 200px;
-        @media screen and (max-width: $media-phone) {
-            margin: 1rem auto;
+    .content {
+        h1 {
+           margin-bottom: 1rem;
         }
     }
 }
 
-.prototype {
-    .prototype-item {
-        margin-top: 5rem;
+
+/* ==========================================================================
+   Interview
+   ========================================================================== */
+.interview {
+    .multi-parent {
+        .multi-item {
+            width: 30%;
+            @media screen and (max-width: $media-phone) {
+                width: 100%;
+            }
+
+            & img {
+                width: 250px;
+            }
+        }
     }
 }
