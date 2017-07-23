@@ -19,9 +19,9 @@
 
 
 /* ==========================================================================
-   Interview
+   Interview & Ridealongs
    ========================================================================== */
-.interview {
+.interview, .ridealong {
     .multi-parent {
         .multi-item {
             width: 30%;
@@ -35,7 +35,6 @@
         }
     }
 }
-
 
 /* ==========================================================================
    Research
@@ -175,6 +174,47 @@
 
             p {
                 margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
+/* ==========================================================================
+   Prototype
+   ========================================================================== */
+.prototype {
+    .multi-parent {
+        .multi-item {
+            & img {
+                width: 80%;
+                margin: 0 auto;
+                @media screen and (max-width: $media-phone) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+/* ==========================================================================
+   Testing
+   ========================================================================== */
+.testing {
+    .half-parent {
+        .half-item {
+            & img {
+                width: 450px;
+                border-radius: 5px;
+                margin-bottom: 1rem;
+                @media screen and (max-width: $media-phone) {
+                    width: 300px;
+                }
+            }
+
+            & p {
+                text-align: center;
             }
         }
     }
