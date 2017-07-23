@@ -27,6 +27,11 @@ $black-color: #4A4A4A;
     src: url(../font/Apercu/Apercu-Regular.otf);
 }
 
+@font-face {
+   font-family: ApercuItalic;
+   src: url(../font/Apercu/Apercu-Italic.otf);
+}
+
 
 @font-face {
    font-family: ApercuLight;
@@ -93,6 +98,10 @@ h1 {
                 padding: 0;
             }
         }
+
+        & p {
+            text-align: left;
+        }
     }
 
     .img {
@@ -129,13 +138,15 @@ h1 {
    Section
    ========================================================================== */
 .section {
+    text-align: center;
     padding: 5rem 10%; // 5rem 8rem
 
     & h1 {
         margin-bottom: 4rem;
     }
 
-    p {
+    & p {
+        font-family: ApercuLight;
         font-size: 1.3rem;
         @media screen and (max-width: $media-tablet) {
             font-size: 1rem;
@@ -159,7 +170,7 @@ h1 {
 
     // first section - adds offset for navbar
     &:first-of-type {
-        padding-top: 10%;
+        padding-top: 12%;
         @media screen and (max-width: $media-tablet) {
             padding-top: 20%;
         }
@@ -215,6 +226,50 @@ h1 {
 .mainnav-link:hover {
 	color: lighten($main-color, 50%);
 }
+
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+.hero {
+    position: relative;
+    text-align: left;
+    background-position: center bottom;
+    background-image: url("../img/index/bg.png");
+    min-height: 300px;
+    @media screen and (max-width: $media-phone) {
+        min-height: 300px;
+    }
+
+    .content {
+        width: 60%;
+
+        h1 {
+            margin-bottom: 3rem;
+        }
+
+        h1, h3, p {
+            color: #fff;
+        }
+
+        p {
+            font-family: ApercuMedium;
+            width: 80%;
+            @media screen and (max-width: $media-tablet) {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: $media-tablet) {
+            text-align: center;
+            width: 100%;
+            p {
+                width: 100%;
+            }
+        }
+    }
+}
+
 
 
 /* ==========================================================================

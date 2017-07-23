@@ -2,6 +2,45 @@
 @import 'base';
 
 /* ==========================================================================
+   Hero
+   ========================================================================== */
+.hero {
+    background-image: url("../img/about/bg.png");
+    min-height: 500px;
+    @media screen and (max-width: $media-phone) {
+        min-height: 300px;
+    }
+    .content {
+        h1 {
+           margin-bottom: 1rem;
+        }
+
+        p {
+           font-family: ApercuLight;
+        }
+    }
+}
+
+
+
+/* ==========================================================================
+   Project
+   ========================================================================== */
+.project {
+    & p {
+        text-align: left;
+    }
+    & .logo {
+        width: 300px;
+        @media screen and (max-width: $media-phone) {
+            display: none;
+        }
+    }
+}
+
+
+
+/* ==========================================================================
    Team
    ========================================================================== */
 
@@ -18,47 +57,47 @@
         }
     }
 
-    .team-container {
-        display: flex;
-        justify-content: space-between;
+    & >:last-child {
+        padding: 0 10%;
         @media screen and (max-width: $media-tablet) {
-            display: block;
+            padding: 0;
         }
+    }
 
-        .team-half {
+    .team-container {
+        .team-member {
+            margin-top: 50px;
+            @media screen and (max-width: $media-phone) {
+                display: block;
+            }
 
-            .team-member {
-                display: flex;
-                flex-direction: row;
-                margin-top: 50px;
+            .description {
                 @media screen and (max-width: $media-phone) {
-                    display: block;
+                    margin: 3% 0;
+                    text-align: center;
                 }
 
-                .description {
-                    margin: 3% 0 0 10%;
-                    @media screen and (max-width: $media-phone) {
-                        margin: 3% 0;
-                        text-align: center;
-                    }
+                p {
+                    margin: 0;
+                }
 
-                    p {
-                        margin: 0;
-                    }
+                .name {
+                    font-family: ApercuBold;
+                }
 
-                    .name {
-                        text-transform: uppercase;
-                    }
+                .role {
+                    font-family: ApercuItalic;
+                    font-size: 1rem;
+                }
 
-                    .bio {
-                        width: 80%;
-                        @media screen and (max-width: $media-phone) {
-                            width: 100%;
-                            text-align: left;
-                        }
-                        margin-top: 10px;
-                        font-size: 0.8rem;
-                        font-weight: lighter;
+                .bio {
+                    font-family: ApercuLight;
+                    margin-top: 10px;
+                    font-size: 1rem;
+                    max-width: 270px;
+                    @media screen and (max-width: $media-tablet) {
+                        max-width: 100%;
+                        width: 100%;
                     }
                 }
             }
@@ -67,9 +106,10 @@
 }
 
 .mhci {
-    .img {
-        img {
-            width: 300px;
+    & img {
+        width: 200px;
+        @media screen and (max-width: $media-phone) {
+            margin: 0 auto;
         }
     }
 }
