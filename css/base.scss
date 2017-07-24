@@ -6,8 +6,11 @@ $media-tablet: 800px;
 $media-desktop: 1200px;
 
 $main-color: #32C0CE;
+$hero-color: #3EB0BD;
 $shade-color: #F8F8F8;
 $black-color: #4A4A4A;
+
+$transition-duration: 0.2s;
 
 /* ==========================================================================
    Font
@@ -234,8 +237,8 @@ h1 {
 	z-index: 10;
 	width: 100%;
     background-color: transparent;
-    -webkit-transition: background-color 0.5s; /* Safari */
-    transition: background-color 0.5s;
+    // -webkit-transition: background-color $transition-duration; /* Safari */
+    // transition: background-color $transition-duration;
     justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     @media screen and (max-width: $media-phone) {
@@ -244,9 +247,9 @@ h1 {
 }
 
 .mainnav-colored {
-    background-color: #419EAB;
-    -webkit-transition: background-color 0.5s; /* Safari */
-    transition: background-color 0.5s;
+    background-color: $hero-color;
+    -webkit-transition: background-color $transition-duration; /* Safari */
+    transition: background-color $transition-duration;
 }
 
 .nav-logo {
@@ -272,6 +275,11 @@ h1 {
 .mainnav-button {
     @media screen and (max-width: $media-phone) {
         display: block;
+    }
+}
+.navbar-collapse {
+    @media screen and (max-width: $media-phone) {
+        background-color: $hero-color;
     }
 }
 .mainnav-link,

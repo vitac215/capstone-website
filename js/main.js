@@ -1,4 +1,16 @@
 $(function() {
+    /* load navbar and footer*/
+    $("#footer").load("components/footer.html");
+    $("#navbar").load("components/navbar.html", function() {
+        /* if toggler icon is clicked and navbar is shown, change navbar color */
+        $(".navbar-toggler").click(function(){
+            var collapseHide = $(".navbar-collapse").hasClass("show");
+            if (!collapseHide) {
+                $(".mainnav").addClass("mainnav-colored");
+            }
+        });
+    });
+
     var offsetHeight = 70;
 
     /* smooth scrolling */
@@ -16,7 +28,8 @@ $(function() {
 		}
 	});
 
-    /* nav bar color change */
+
+    /* navbar color change after scrolling */
 	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
 		if (scroll > offsetHeight) {
