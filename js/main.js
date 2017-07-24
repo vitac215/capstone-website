@@ -1,5 +1,5 @@
 $(function() {
-    const heroHeight = $('.hero').height();
+    let heroHeight = $('.hero').height();
 
     /* smooth scrolling */
     $('a[href*=\\#]:not([href=\\#])').click(function() {
