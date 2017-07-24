@@ -25,6 +25,7 @@
         align-self: center;
         img {
             max-width: 300px;
+            border-radius: 5px;
             @media screen and (max-width: $media-phone) {
                 margin-bottom: 1.5rem;
             }

@@ -1,4 +1,5 @@
 $(function() {
+    const heroHeight = 430;
 
     /* smooth scrolling */
     $('a[href*=\\#]:not([href=\\#])').click(function() {
@@ -12,6 +13,17 @@ $(function() {
 				}, 1000);
 				return false;
 			}
+		}
+	});
+
+    /* nav bar color change */
+	$(window).scroll(function(){
+		var scroll = $(window).scrollTop();
+		if (scroll > heroHeight) {
+			$(".mainnav").addClass("mainnav-colored");
+		}
+		else{
+			$(".mainnav").removeClass("mainnav-colored");
 		}
 	});
 });

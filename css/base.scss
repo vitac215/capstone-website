@@ -233,10 +233,14 @@ h1 {
 	position: fixed;
 	z-index: 10;
 	width: 100%;
-    background-color: $main-color;
-    background-color: rgba($main-color, 0.4);
+    // background-color: rgba($main-color, 0.4);
+    background-color: transparent;
     justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mainnav-colored {
+    background-color: rgba(darken($main-color, 20%), 0.6);
 }
 
 .nav-logo {
