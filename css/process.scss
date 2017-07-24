@@ -31,6 +31,11 @@
 
             & img {
                 width: 250px;
+                border-radius: 50%;
+                @media screen and (max-width: $media-phone) {
+                    border-radius: 5px;
+                }
+
             }
         }
     }

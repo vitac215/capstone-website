@@ -97,7 +97,7 @@
     .feature-container {
         & > :last-child {
             @media screen and (max-width: $media-phone) {
-                margin-top: 2rem;
+                margin-top: 4rem;
             }
         }
 
