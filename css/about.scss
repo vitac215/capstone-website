@@ -54,22 +54,23 @@
     }
 
     & >:last-child {
-        padding: 0 10%;
+        margin-top: 5rem;
+        padding: 0 15%;
         @media screen and (max-width: $media-tablet) {
             padding: 0;
+            margin-top: 0;
         }
     }
 
     .team-container {
         .team-member {
-            margin-top: 50px;
             @media screen and (max-width: $media-phone) {
                 display: block;
+                margin-bottom: 3rem;
             }
 
             .description {
                 @media screen and (max-width: $media-phone) {
-                    margin: 3% 0;
                     text-align: center;
                 }
 
