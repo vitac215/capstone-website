@@ -1,5 +1,5 @@
 $(function() {
-    let heroHeight = $('.hero').height();
+    var offsetHeight = 70;
 
     /* smooth scrolling */
     $('a[href*=\\#]:not([href=\\#])').click(function() {
@@ -19,7 +19,7 @@ $(function() {
     /* nav bar color change */
 	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
-		if (scroll > heroHeight) {
+		if (scroll > offsetHeight) {
 			$(".mainnav").addClass("mainnav-colored");
 		}
 		else{
