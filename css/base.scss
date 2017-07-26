@@ -300,6 +300,7 @@ h1 {
     text-align: left;
     background-position: center bottom;
     background-image: url("../img/index/bg.png");
+    background-size: cover;
     min-height: 300px;
     @media screen and (max-width: $media-phone) {
         min-height: 300px;
