@@ -11,7 +11,7 @@ $(function() {
         });
     });
 
-    var offsetHeight = 20;
+    var offsetHeight = 5;
 
     /* smooth scrolling */
     $('a[href*=\\#]:not([href=\\#])').click(function() {
