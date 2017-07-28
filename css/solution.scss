@@ -4,8 +4,13 @@
 /* ==========================================================================
    Offset
    ========================================================================== */
-.section h1 {
+.feature  {
+    padding-bottom: 2%;
     @media screen and (max-width: $media-phone) {
+        padding-bottom: 10%;
+    }
+
+    h1 {
         margin-bottom: 0;
     }
 }
