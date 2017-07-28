@@ -2,6 +2,15 @@
 @import 'base';
 
 /* ==========================================================================
+   Offset
+   ========================================================================== */
+.section h1 {
+    @media screen and (max-width: $media-phone) {
+        margin-bottom: 0;
+    }
+}
+
+/* ==========================================================================
    Hero
    ========================================================================== */
 .hero {
@@ -95,12 +104,6 @@
    ========================================================================== */
 .feature {
     .feature-container {
-        & > :last-child {
-            @media screen and (max-width: $media-phone) {
-                margin-top: 4rem;
-            }
-        }
-
         .content {
             align-self: center;
 
@@ -136,6 +139,16 @@
             img {
                 min-width: 250px;
             }
+            video {
+                width: 100%;
+            }
+
+            box-sizing: border-box;
+            background: url("../img/placeholder/phone.png") center center no-repeat;
+            background-size: contain;
+            padding: 48% 6% 46% 7%;
+            max-width: 400px;
+            min-width: 250px;
         }
     }
 }
