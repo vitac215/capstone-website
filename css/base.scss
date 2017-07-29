@@ -155,6 +155,9 @@ h1 {
     }
 }
 
+.hide {
+    display: none;
+}
 
 .media-desktop-only {
     @media screen and (max-width: $media-phone) {

@@ -157,3 +157,25 @@
         }
     }
 }
+
+/* ==========================================================================
+   Prototype
+   ========================================================================== */
+.prototype {
+    h1 {
+        margin-bottom: 1rem;
+    }
+    iframe {
+        width: 100%;
+        min-height: 800px;
+        margin-top: 3rem;
+        border: none;
+        @media screen and (max-width: $media-phone) {
+            min-height: 600px;
+        }
+    }
+    @media screen and (max-width: $media-phone) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
