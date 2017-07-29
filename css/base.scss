@@ -260,7 +260,10 @@ h1 {
     color: #fff;
 }
 .navbar-toggler {
-    margin: 0.7rem;
+    margin: 1.5rem 0.7rem 0.7rem 0.7rem;
+    @media screen and (max-width: $media-phone) {
+        margin: 0.7rem;
+    }
 }
 .mainnav-links {
 	margin: 1rem;
@@ -274,6 +277,9 @@ h1 {
 	display: inline-block;
 	padding: 1rem 2.5rem;
 	font-size: 1rem;
+    @media screen and (max-width: $media-phone) {
+        padding: 0.3rem 2.5rem;
+    }
 }
 .mainnav-button {
     @media screen and (max-width: $media-phone) {
