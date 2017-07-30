@@ -235,7 +235,7 @@ h1 {
    ========================================================================== */
 .mainnav {
     display: flex;
-    padding: 0 5rem;
+    padding: 0 2rem;
 	position: fixed;
 	z-index: 10;
 	width: 100%;
@@ -256,8 +256,13 @@ h1 {
 }
 
 .nav-logo {
-    margin: 1rem;
     color: #fff;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 50px;
+    @media screen and (max-width: $media-phone) {
+        margin: 0.3rem 0.3rem 0.3rem 1.5rem;
+    }
 }
 .navbar-toggler {
     margin: 1.5rem 0.7rem 0.7rem 0.7rem;
@@ -273,7 +278,7 @@ h1 {
     //     font-size: 0.7rem;
     // }
 }
-.mainnav-button, .nav-logo {
+.mainnav-button {
 	display: inline-block;
 	padding: 1rem 2.5rem;
 	font-size: 1rem;
