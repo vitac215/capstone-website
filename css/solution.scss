@@ -2,6 +2,20 @@
 @import 'base';
 
 /* ==========================================================================
+   Offset
+   ========================================================================== */
+.feature  {
+    padding-bottom: 2%;
+    @media screen and (max-width: $media-phone) {
+        padding-bottom: 10%;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+}
+
+/* ==========================================================================
    Hero
    ========================================================================== */
 .hero {
@@ -69,7 +83,7 @@
     }
 
     .half-parent {
-        justify-content: center;
+        justify-content: flex-end;
         @media screen and (max-width: $media-phone) {
             display: flex;
         }
@@ -95,12 +109,6 @@
    ========================================================================== */
 .feature {
     .feature-container {
-        & > :last-child {
-            @media screen and (max-width: $media-phone) {
-                margin-top: 4rem;
-            }
-        }
-
         .content {
             align-self: center;
 
@@ -136,6 +144,38 @@
             img {
                 min-width: 250px;
             }
+            video {
+                width: 100%;
+            }
+
+            box-sizing: border-box;
+            background: url("../img/placeholder/phone.png") center center no-repeat;
+            background-size: contain;
+            padding: 48% 6% 46% 7%;
+            max-width: 350px;
+            min-width: 250px;
         }
+    }
+}
+
+/* ==========================================================================
+   Prototype
+   ========================================================================== */
+.prototype {
+    h1 {
+        margin-bottom: 1rem;
+    }
+    iframe {
+        width: 100%;
+        min-height: 800px;
+        margin-top: 3rem;
+        border: none;
+        @media screen and (max-width: $media-phone) {
+            min-height: 600px;
+        }
+    }
+    @media screen and (max-width: $media-phone) {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }

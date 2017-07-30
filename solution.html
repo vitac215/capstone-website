@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
 
     <title>Vivid - Solution</title>
     <meta name="description" content="Vivid - Solution">
@@ -15,9 +15,9 @@
       <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/vendor/animate.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/solution.min.css">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 
 <body>
@@ -77,17 +77,14 @@
         </div>
 
         <div class="half-parent">
-            <div class="img half-item">
-                <img src="img/solution/detective.png" class="img-responsive"/>
-            </div>
             <div class="half-item">
-                <p>-Detective</p>
-                <p>Pittsburgh Police</p>
+                <p>-Detective and Former Patrol Officer</p>
+                <p>&nbsp Allegheny County Police</p>
             </div>
         </div>
     </section>
 
-    <section class="section feature">
+    <section class="section feature feature1">
         <h1>Keeping track of witnesses and victims</h1>
         <div class="feature-container half-parent">
             <div class="content half-item media-desktop-only">
@@ -108,8 +105,12 @@
                 </div>
             </div>
 
-            <div class="img half-item phone">
-                <img src="img/placeholder/phone.png" class="img-responsive"/>
+            <div class="half-item">
+                <div class="phone">
+                    <video autoplay loop muted playsinline>
+                        <source src="video/people.mp4" type="video/mp4"/>
+                    </video>
+                </div>
             </div>
 
             <div class="content half-item media-phone-only">
@@ -133,11 +134,15 @@
     </section>
 
 
-    <section class="section shading feature">
+    <section class="section shading feature feature2">
         <h1>Supporting interactions with foreign speakers</h1>
         <div class="feature-container half-parent">
-            <div class="img half-item phone">
-                <img src="img/placeholder/phone.png" class="img-responsive"/>
+            <div class="half-item">
+                <div class="phone">
+                    <video autoplay loop muted playsinline>
+                        <source src="video/recording.mp4" type="video/mp4"/>
+                    </video>
+                </div>
             </div>
 
             <div class="content half-item">
@@ -161,49 +166,59 @@
     </section>
 
 
-    <section class="section feature">
+    <section class="section feature feature3">
         <h1>Simple, fast multimedia capture</h1>
         <div class="feature-container half-parent">
             <div class="content half-item media-desktop-only">
                 <div class="pickup half-parent">
                     <img src="img/icon/visual.png" class="half-item"/>
                     <div class="half-item">
-                        <h1>Assist foreign language victims and witnesses</h1>
-                        <p>Audio recordings help incorporate the accounts of foreign language witnesses and victims.</p>
+                        <h1>Collect visual evidence</h1>
+                        <p>To support memory recognition when filing police reports, Vivid helps officers capture multimedia evidence.</p>
                     </div>
                 </div>
 
                 <div class="pickup half-parent">
                     <img src="img/icon/annotation.png" class="half-item"/>
                     <div class="half-item">
-                        <h1>Consent forms in foreign languages</h1>
-                        <p>Text-to-speech technology helps officers collect written consent for audio evidence recordings.</p>
+                        <h1>Annotate images & videos</h1>
+                        <p>Multimedia evidence from the field can be annotated to preserve critical information and share insights.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="img half-item phone">
-                <img src="img/placeholder/phone.png" class="img-responsive"/>
+            <div class="half-item">
+                <div class="phone">
+                    <video autoplay loop muted playsinline>
+                        <source src="video/camera.mp4" type="video/mp4"/>
+                    </video>
+                </div>
             </div>
 
             <div class="content half-item media-phone-only">
                 <div class="pickup half-parent">
                     <img src="img/icon/visual.png" class="half-item"/>
                     <div class="half-item">
-                        <h1>Assist foreign language victims and witnesses</h1>
-                        <p>Audio recordings help incorporate the accounts of foreign language witnesses and victims.</p>
+                        <h1>Collect visual evidence</h1>
+                        <p>To support memory recognition when filing police reports, Vivid helps officers capture multimedia evidence.</p>
                     </div>
                 </div>
 
                 <div class="pickup half-parent">
                     <img src="img/icon/annotation.png" class="half-item"/>
                     <div class="half-item">
-                        <h1>Consent forms in foreign languages</h1>
-                        <p>Text-to-speech technology helps officers collect written consent for audio evidence recordings.</p>
+                        <h1>Annotate images & videos</h1>
+                        <p>Multimedia evidence from the field can be annotated to preserve critical information and share insights.</p>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="section shading prototype">
+        <h1>Interactive Prototype</h1>
+        <p>Prototype is best viewed on Mac computers.</p>
+        <iframe src="https://framer.cloud/OciZQ"></iframe>
     </section>
 
 
@@ -211,9 +226,9 @@
     </div>
 
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-    <script src="https://use.fontawesome.com/462eb97b48.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="js/solution.js"></script>
 </body>
 
 </html>

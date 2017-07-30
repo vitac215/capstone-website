@@ -81,7 +81,7 @@
     }
 
     .half-parent {
-        justify-content: center;
+        justify-content: flex-end;
         @media screen and (max-width: $media-phone) {
             display: flex;
         }

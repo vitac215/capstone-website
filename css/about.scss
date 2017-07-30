@@ -27,7 +27,7 @@
         text-align: left;
     }
     & .logo {
-        width: 300px;
+        width: 180px;
         @media screen and (max-width: $media-phone) {
             display: none;
         }
@@ -44,6 +44,12 @@
     img {
         width: 200px;
         height: 200px;
+        border-radius: 100px;
+        transition: 0.5s;
+        &:hover {
+            box-shadow: 0 0 15px 8px rgba(0,0,0,0.2);
+            transition: 0.5s;
+        }
         @media screen and (max-width: $media-tablet) {
             width: 150px;
             height: 150px;
@@ -83,7 +89,7 @@
                 }
 
                 .role {
-                    font-family: ApercuItalic;
+                    font-family: ApercuRegular;
                     font-size: 1rem;
                 }
 
