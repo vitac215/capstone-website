@@ -200,13 +200,14 @@ h1 {
         display: block;
         margin: auto;
         margin-top: 2rem;
-        width: 10rem;
+        width: 12rem;
         position: relative;
-        padding-left: 3.5rem;
+        // padding-left: 3.5rem;
+        padding-right: 2.5rem;
 
         .material-icons {
             position: absolute;
-            left: 1.5rem;
+            // left: 1.5rem;
             bottom: 0.7rem;
         }
     }
