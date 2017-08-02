@@ -16,7 +16,7 @@ $(function() {
             easing: 'linear',
             opacity: 0,
             scale: 1,
-            mobile: false,
+            mobile: true,
         }
 
         let configLeft = Object.assign({}, config);
