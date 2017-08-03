@@ -7,6 +7,9 @@
 .hero {
    min-height: 600px;
    background-image: url("../img/index/bg.png");
+   @media screen and (max-width: $media-phone) {
+       min-height: 680px;
+   }
 
    .content {
        h1 {
@@ -60,8 +63,11 @@
 }
 
 .solution {
+    .multi-parent:first-of-type {
+        padding: 0 20% 2rem;
+    }
     .multi-parent .multi-item {
-        width: 30%;
+        width: 40%;
         @media screen and (max-width: $media-tablet) {
             width: 100%;
         }
@@ -80,9 +86,15 @@
     .half-parent {
         .half-item {
             text-align: left;
+            @media screen and (max-width: $media-phone) {
+                text-align: center;
+            }
             p {
                 margin-top: 1.5rem;
                 font-family: ApercuLight;
+                @media screen and (max-width: $media-phone) {
+                    text-align: center;
+                }
             }
 
             img {
