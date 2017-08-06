@@ -189,14 +189,16 @@
    Prototype
    ========================================================================== */
 .prototype {
+    padding-bottom: 0;
+    h1 {
+        margin-bottom: 0;
+    }
     .multi-parent {
         .multi-item {
-            & img {
-                width: 80%;
-                margin: 0 auto;
-                @media screen and (max-width: $media-phone) {
-                    width: 100%;
-                }
+            margin-bottom: 0;
+            width: 30%;
+            @media screen and (max-width: $media-phone) {
+                width: 100%;
             }
         }
     }
