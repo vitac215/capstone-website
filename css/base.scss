@@ -142,6 +142,20 @@ h1 {
 }
 
 
+.phone-bg {
+    video, img {
+        width: 100%;
+    }
+
+    box-sizing: border-box;
+    background: url("../img/placeholder/phone.png") center center no-repeat;
+    background-size: contain;
+    padding: 48% 6% 46% 7%;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+
 .half-bg {
     background-position: center;
     background-repeat: no-repeat;
