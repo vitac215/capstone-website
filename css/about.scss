@@ -41,6 +41,10 @@
    ========================================================================== */
 
 .team {
+    padding-bottom: 8rem;
+    @media screen and (max-width: $media-phone) {
+        padding-bottom: 0.5rem;
+    }
     img {
         width: 200px;
         height: 200px;
@@ -69,10 +73,16 @@
     }
 
     .team-container {
+        &:nth-of-type(1) {
+            margin-bottom: 8rem;
+            @media screen and (max-width: $media-phone) {
+                margin-bottom: 0;
+            }
+        }
         .team-member {
             @media screen and (max-width: $media-phone) {
                 display: block;
-                margin-bottom: 3rem;
+                margin-bottom: 7rem;
             }
 
             .description {
@@ -103,6 +113,28 @@
                         width: 100%;
                     }
                 }
+            } // description
+
+            .link {
+                position: relative;
+                top: 1rem;
+                a {
+                    .fa {
+                        position: absolute;
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+
+                    .fa-left {
+                        left: 6.5rem;
+                        top: 0.06rem;
+                    }
+                    .fa-right {
+                        right: 6.5rem;
+                    }
+                }
+
             }
         }
     } // end of team-container
