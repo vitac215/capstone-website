@@ -3,6 +3,7 @@ $(function() {
     userAgent = window.navigator.platform;
     if (userAgent !== "MacIntel") {
         $(".prototype iframe").addClass("hide");
+        $(".prototype p").removeClass("hide");
     }
 
     // setTimeout(function() {
